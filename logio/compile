@@ -1,0 +1,1 @@
+gcc -I"/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/include" -arch i386 -arch x86_64 -o liblogio.dylib -dynamiclib -F/System/Library/Frameworks/JavaVM.framework/Frameworks -framework JavaVM -framework JavaNativeFoundation -framework Foundation -framework CoreServices *.m
